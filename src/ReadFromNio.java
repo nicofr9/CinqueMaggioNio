@@ -7,7 +7,7 @@ public class ReadFromNio {
 	public static void main(String[] args) {
 		try
 		{
-			Path p= Paths.get("ReadFileNio\\\\cinqueMaggio.txt");
+			Path p= Paths.get("ReadFileNio\\cinqueMaggio.txt");
 			List<String> file = Files.readAllLines(p);
 			for(String x : file) {
 				System.out.println(x);
